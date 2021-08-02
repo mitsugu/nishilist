@@ -1,0 +1,2 @@
+#! /bin/sh
+pdftotext -layout -nopgbrk kobetsu_list_0730.pdf - | sed -e '/^$/d' | tail -n +5 > tmp1.txt
